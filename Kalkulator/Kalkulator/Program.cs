@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             //1. Wyświetlenie nagłowka - opis aplikacji
+            Console.WriteLine("Witaj w aplikacji KALKULATOR!");
             //2. Prośba o podanie 1 liczby
             //3. Pobranie liczby od użytkownika
             //4. Prośba o podanie działania
