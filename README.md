@@ -1,1 +1,3 @@
-# Kalkulator
+Kalkulator zrobiony w c#
+
+Błażej Kuświk
