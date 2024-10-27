@@ -20,7 +20,10 @@
             var op = Console.ReadLine();
 
             //6. Prośba o podanie 2 liczby
+            Console.WriteLine("Podaj proszę 2 liczbę:");
+
             //7. Pobranie liczby od użytkownika
+            var int2 = int.Parse(Console.ReadLine());
             //8. Wykonanie obliczeń
             //9. Wyświetlenie wyniku użytkownikowi
         }
