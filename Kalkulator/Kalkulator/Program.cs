@@ -12,9 +12,13 @@
 
             //3. Pobranie liczby od użytkownika
             var int1 = Console.ReadLine();
-            //3. Pobranie liczby od użytkownika
+
             //4. Prośba o podanie działania
+            Console.WriteLine("Jaką operację chcesz wykonać? Możliwe operacje to: '+', '-', '*', '/'.");
+
             //5. Pobranie wybranego działania od użytkownika
+            var op = Console.ReadLine();
+
             //6. Prośba o podanie 2 liczby
             //7. Pobranie liczby od użytkownika
             //8. Wykonanie obliczeń
