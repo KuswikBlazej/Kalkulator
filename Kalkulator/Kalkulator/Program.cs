@@ -11,7 +11,7 @@
             Console.WriteLine("Podaj proszę 1 liczbę:");
 
             //3. Pobranie liczby od użytkownika
-            var int1 = Console.ReadLine();
+            var int1 = int.Parse(Console.ReadLine());
 
             //4. Prośba o podanie działania
             Console.WriteLine("Jaką operację chcesz wykonać? Możliwe operacje to: '+', '-', '*', '/'.");
@@ -24,8 +24,30 @@
 
             //7. Pobranie liczby od użytkownika
             var int2 = int.Parse(Console.ReadLine());
+
             //8. Wykonanie obliczeń
+            var res = 0;
+
+            switch (op)
+            {
+                case "+":
+                    res = int1 + int2;
+                    break;
+                case "-":
+                    res = int1 - int2;
+                    break;
+                case "*":
+                    res = int1 * int2;
+                    break;
+                case "/":
+                    res = int1 / int2;
+                    break;
+                default:
+                    throw new Exception("Wybrałeś złą operację!");
+            }
+
             //9. Wyświetlenie wyniku użytkownikowi
+            Console.WriteLine($"Wynik Twojego działania to: {res}.");
         }
     }
 }
